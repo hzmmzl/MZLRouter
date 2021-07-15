@@ -1,0 +1,16 @@
+PODS:
+  - MZLRouter (0.1.0)
+
+DEPENDENCIES:
+  - MZLRouter (from `../`)
+
+EXTERNAL SOURCES:
+  MZLRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MZLRouter: 52349d3ef0ece2105a46f7e989890fb326d0cd70
+
+PODFILE CHECKSUM: b4d337caca4207cea91b5c51131f1256acc7f15d
+
+COCOAPODS: 1.10.1

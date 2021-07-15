@@ -1,0 +1,6 @@
+framework module Pods_MZLRouter_Tests {
+  umbrella header "Pods-MZLRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
