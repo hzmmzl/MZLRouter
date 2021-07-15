@@ -16,6 +16,18 @@
 		7D03B64F582C1A109AF006C07BE6A9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9D945EDED98E077CC2BB531EE1D9910C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7060AA2B9129BF1679B6101A1A5EFC6 /* ReplaceMe.swift */; };
 		B321D5266AB5112B2F0C7DEDAF13466D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB6AC64D269FE52B00CB23B7 /* MZLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC649269FE52B00CB23B7 /* MZLCommon.swift */; };
+		BB6AC64E269FE52B00CB23B7 /* MZLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC649269FE52B00CB23B7 /* MZLCommon.swift */; };
+		BB6AC64F269FE52B00CB23B7 /* MZLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC649269FE52B00CB23B7 /* MZLCommon.swift */; };
+		BB6AC650269FE52B00CB23B7 /* MZLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64A269FE52B00CB23B7 /* MZLRouter.swift */; };
+		BB6AC651269FE52B00CB23B7 /* MZLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64A269FE52B00CB23B7 /* MZLRouter.swift */; };
+		BB6AC652269FE52B00CB23B7 /* MZLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64A269FE52B00CB23B7 /* MZLRouter.swift */; };
+		BB6AC653269FE52B00CB23B7 /* ModuleRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64B269FE52B00CB23B7 /* ModuleRouteContext.swift */; };
+		BB6AC654269FE52B00CB23B7 /* ModuleRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64B269FE52B00CB23B7 /* ModuleRouteContext.swift */; };
+		BB6AC655269FE52B00CB23B7 /* ModuleRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64B269FE52B00CB23B7 /* ModuleRouteContext.swift */; };
+		BB6AC656269FE52B00CB23B7 /* ModuleMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64C269FE52B00CB23B7 /* ModuleMeditor.swift */; };
+		BB6AC657269FE52B00CB23B7 /* ModuleMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64C269FE52B00CB23B7 /* ModuleMeditor.swift */; };
+		BB6AC658269FE52B00CB23B7 /* ModuleMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6AC64C269FE52B00CB23B7 /* ModuleMeditor.swift */; };
 		DE7A2DA21D08E31BBED9A68AEB960E11 /* Pods-MZLRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62106CF0B683229D453256C8D7AC6098 /* Pods-MZLRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,7 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1266AC5A9B85E0A37EEC5694114D6C3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1266AC5A9B85E0A37EEC5694114D6C3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1450D283275088C51FB1E76C570709D7 /* Pods-MZLRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FFB0969C3CB4A8F260AC8A45F083A72 /* MZLRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZLRouter-umbrella.h"; sourceTree = "<group>"; };
 		211C3FA1897A8B4E1D40BF0C8C648945 /* Pods-MZLRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,25 +63,29 @@
 		6F8B37F28E6FD7C39FBA328011CA6770 /* Pods-MZLRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZLRouter_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7D179BDD582229A860A355B2BA656F55 /* Pods-MZLRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7FAD5E92DA8247AA71800DC75717E0B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7FAD5E92DA8247AA71800DC75717E0B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8E8BD8E5E548F271EF0F3FBB8EBC3620 /* Pods-MZLRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZLRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9C2570BAB595700B47356D23DD6F8794 /* MZLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MZLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C2570BAB595700B47356D23DD6F8794 /* MZLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MZLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA5E17307C59063D6ECD8CAFE76F3D8 /* Pods-MZLRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZLRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5C8ECA6A2C2B95C51C38D838606ABB8 /* Pods-MZLRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZLRouter_Tests-dummy.m"; sourceTree = "<group>"; };
 		A68437D01ED594D0B61774382403AEB7 /* MZLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MZLRouter-Info.plist"; sourceTree = "<group>"; };
 		A9070FF8CC97FA3CD5C4ED5E76F41F89 /* Pods-MZLRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZLRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		BD0ED73ED6252C25F94BC1474379269D /* Pods_MZLRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZLRouter_Example.framework; path = "Pods-MZLRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6AC649269FE52B00CB23B7 /* MZLCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZLCommon.swift; sourceTree = "<group>"; };
+		BB6AC64A269FE52B00CB23B7 /* MZLRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZLRouter.swift; sourceTree = "<group>"; };
+		BB6AC64B269FE52B00CB23B7 /* ModuleRouteContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleRouteContext.swift; sourceTree = "<group>"; };
+		BB6AC64C269FE52B00CB23B7 /* ModuleMeditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleMeditor.swift; sourceTree = "<group>"; };
+		BD0ED73ED6252C25F94BC1474379269D /* Pods_MZLRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZLRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C015173486DA6FFF5BC2125F7E06CCE7 /* MZLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZLRouter.release.xcconfig; sourceTree = "<group>"; };
 		CA82097FFEB6A0657CE16B7AF26C0957 /* MZLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZLRouter.debug.xcconfig; sourceTree = "<group>"; };
 		CBAF708A066E16119C51588CA5BD3EC1 /* Pods-MZLRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZLRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2119AFBEF03A828C0F25A4D572E14C4 /* MZLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MZLRouter.framework; path = MZLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2119AFBEF03A828C0F25A4D572E14C4 /* MZLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7060AA2B9129BF1679B6101A1A5EFC6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MZLRouter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DA7148D465C5175C018DDEE4EEE754E8 /* MZLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZLRouter-dummy.m"; sourceTree = "<group>"; };
 		ED6AEA0D1DFCEF9FF57E9F913A3C2552 /* MZLRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZLRouter.modulemap; sourceTree = "<group>"; };
 		F5F14D81BE040801E8EA01E133A31B78 /* Pods-MZLRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZLRouter_Example.modulemap"; sourceTree = "<group>"; };
 		FBBDB9506439FD1205C85B19134DC844 /* Pods-MZLRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FFA11EC304E861216C21A66AF056EAA1 /* Pods_MZLRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZLRouter_Tests.framework; path = "Pods-MZLRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA11EC304E861216C21A66AF056EAA1 /* Pods_MZLRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZLRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +163,10 @@
 		BC05F9182C76F9E429DD1F5C083DA78C /* MZLRouter */ = {
 			isa = PBXGroup;
 			children = (
+				BB6AC64C269FE52B00CB23B7 /* ModuleMeditor.swift */,
+				BB6AC64B269FE52B00CB23B7 /* ModuleRouteContext.swift */,
+				BB6AC649269FE52B00CB23B7 /* MZLCommon.swift */,
+				BB6AC64A269FE52B00CB23B7 /* MZLRouter.swift */,
 				D7060AA2B9129BF1679B6101A1A5EFC6 /* ReplaceMe.swift */,
 				CF58A2EFCDDF8D64D77DD50959E01DDA /* Pod */,
 				F90459938FF1D4BDED0E63DCC15B6FCF /* Support Files */,
@@ -317,6 +337,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D6CB8880D1A60D9DF1A82E5338DFCD6E = {
+						LastSwiftMigration = 1150;
+					};
+					DF7228F12C5D20D437AEE97C530E69D1 = {
+						LastSwiftMigration = 1150;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -367,6 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6AC657269FE52B00CB23B7 /* ModuleMeditor.swift in Sources */,
+				BB6AC651269FE52B00CB23B7 /* MZLRouter.swift in Sources */,
+				BB6AC654269FE52B00CB23B7 /* ModuleRouteContext.swift in Sources */,
+				BB6AC64E269FE52B00CB23B7 /* MZLCommon.swift in Sources */,
 				4F35A39C6A3FBAD56C8DA021C75900B2 /* Pods-MZLRouter_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,7 +407,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6AC653269FE52B00CB23B7 /* ModuleRouteContext.swift in Sources */,
 				4488D6B997AD05D5F3F1589F0F90C88C /* MZLRouter-dummy.m in Sources */,
+				BB6AC64D269FE52B00CB23B7 /* MZLCommon.swift in Sources */,
+				BB6AC650269FE52B00CB23B7 /* MZLRouter.swift in Sources */,
+				BB6AC656269FE52B00CB23B7 /* ModuleMeditor.swift in Sources */,
 				9D945EDED98E077CC2BB531EE1D9910C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +420,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB6AC658269FE52B00CB23B7 /* ModuleMeditor.swift in Sources */,
+				BB6AC652269FE52B00CB23B7 /* MZLRouter.swift in Sources */,
+				BB6AC655269FE52B00CB23B7 /* ModuleRouteContext.swift in Sources */,
+				BB6AC64F269FE52B00CB23B7 /* MZLCommon.swift in Sources */,
 				444500CEE0CE57A7FA1EC842A35819C6 /* Pods-MZLRouter_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +517,7 @@
 			baseConfigurationReference = FBBDB9506439FD1205C85B19134DC844 /* Pods-MZLRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -498,6 +539,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -540,6 +583,7 @@
 			baseConfigurationReference = 1450D283275088C51FB1E76C570709D7 /* Pods-MZLRouter_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -561,6 +605,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -572,6 +618,7 @@
 			baseConfigurationReference = 211C3FA1897A8B4E1D40BF0C8C648945 /* Pods-MZLRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -593,6 +640,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -685,8 +733,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -697,6 +744,7 @@
 			baseConfigurationReference = 7D179BDD582229A860A355B2BA656F55 /* Pods-MZLRouter_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -718,6 +766,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
