@@ -18,10 +18,32 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "MZLRouter/Classes/**/*",
   "resource_bundles": {
     "MZLRouter": [
       "MZLRouter/Assets/*"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "URLRouter",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "MZLRouter/Classes/URLRouter/**/*"
+    },
+    {
+      "name": "TargetActionRouter",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "MZLRouter/Classes/TargetActionRouter/**/*"
+    },
+    {
+      "name": "Helper",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "source_files": "MZLRouter/Classes/Helper/**/*"
+    }
+  ]
 }

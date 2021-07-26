@@ -1,5 +1,11 @@
 PODS:
-  - MZLRouter (0.1.0)
+  - MZLRouter (0.1.0):
+    - MZLRouter/Helper (= 0.1.0)
+    - MZLRouter/TargetActionRouter (= 0.1.0)
+    - MZLRouter/URLRouter (= 0.1.0)
+  - MZLRouter/Helper (0.1.0)
+  - MZLRouter/TargetActionRouter (0.1.0)
+  - MZLRouter/URLRouter (0.1.0)
 
 DEPENDENCIES:
   - MZLRouter (from `../`)
@@ -9,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MZLRouter: 71da370117a052eef4adc3bb368e16cad5ba9ca1
+  MZLRouter: 1e01d897384fe0b8e0cc859d8faa8275ad501776
 
 PODFILE CHECKSUM: b4d337caca4207cea91b5c51131f1256acc7f15d
 

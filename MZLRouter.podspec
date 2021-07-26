@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MZLRouter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一个路由'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,31 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'MZLRouter/Classes/**/*'
+#  还有如果使用subspec，就不需要描述整个文件夹路径，会造成subspec划分的文件夹没有代码
+#  s.source_files = 'MZLRouter/Classes/**/*'
   
    s.resource_bundles = {
      'MZLRouter' => ['MZLRouter/Assets/*']
    }
+   
+
+   s.subspec 'URLRouter' do |router|
+     router.ios.deployment_target = '9.0'
+     router.source_files = 'MZLRouter/Classes/URLRouter/**/*'
+   end
+
+   s.subspec 'TargetActionRouter' do |router|
+     router.ios.deployment_target = '9.0'
+     router.source_files = 'MZLRouter/Classes/TargetActionRouter/**/*'
+   end
+
+   s.subspec 'Helper' do |helper|
+     helper.ios.deployment_target = '9.0'
+     helper.source_files = 'MZLRouter/Classes/Helper/**/*'
+   end
+   
+   # pch文件位置
+   #s.prefix_header_file = 'MZLRouter/Classes/include/MZLRouterPods-Prefix.pch'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

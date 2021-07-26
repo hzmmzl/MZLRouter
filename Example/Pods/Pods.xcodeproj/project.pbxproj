@@ -7,97 +7,106 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EA18CD44123B290337C615E92FB11B3 /* MZLRouter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8384AD2C0E486AB8568C8FA9DF980EC5 /* MZLRouter.xcassets */; };
+		0F55210A81DA7A47933389B367CE8695 /* ModuleMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88F57084096F8A1319ED69B44CC1222 /* ModuleMeditor.swift */; };
 		444500CEE0CE57A7FA1EC842A35819C6 /* Pods-MZLRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C8ECA6A2C2B95C51C38D838606ABB8 /* Pods-MZLRouter_Tests-dummy.m */; };
 		4F35A39C6A3FBAD56C8DA021C75900B2 /* Pods-MZLRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E0FA9E468927DDE959F4A9EA19F91E /* Pods-MZLRouter_Example-dummy.m */; };
-		53419C5D0C1868FE6C3ADBE426DDD73A /* ModuleRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77E9000EB0BD3D2730E2F3B086A470E /* ModuleRouteContext.swift */; };
-		57A638EDA0F7E6D69F4FD1CD8AAE22DE /* MZLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF71DB8FFC6AFDAD632379F646668DC4 /* MZLRouter-dummy.m */; };
+		66006183F8CE9568B904B270C33AC7D9 /* MZLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6D18795DC50760968B2BC4A1CE0D9 /* MZLCommon.swift */; };
 		6884DAD3B7C22B3C01F6A819E5D74805 /* Pods-MZLRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9070FF8CC97FA3CD5C4ED5E76F41F89 /* Pods-MZLRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69CD6568E78344C27160EFDE80C682CF /* ModuleMeditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB95D6A6E24E07B054541F77CC99EE3 /* ModuleMeditor.swift */; };
-		70EB9FB67C88950B5CD083B6C0A24722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7D03B64F582C1A109AF006C07BE6A9CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7D2A0F1606B88E5D49AEDF235E04FA84 /* MZLRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E944D284ECA952F55B518EBEF844476 /* MZLRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F0695AB247C9642208143A336B32B2F /* ModuleRouteContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753CB3A7769D70F77FC9C262AE0F24DA /* ModuleRouteContext.swift */; };
+		88F94EBB7340AE212585891F9525987F /* MZLRouter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2EE24AC0D8528215D7D25A8C8AC88A7 /* MZLRouter.bundle */; };
+		8D441E0C75BD50051039AC3EF1DBD412 /* MZLRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB89F98BA86729EBD60F3EAAAEB9693C /* MZLRouter-dummy.m */; };
+		9824B927EE1311D17B64D7167E957AA6 /* MZLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E852EEAFE8081CFA77E57DFE5CDE939 /* MZLRouter.swift */; };
 		B321D5266AB5112B2F0C7DEDAF13466D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C65B5E4E2A7C6F4CA98133CBD7BF00C1 /* MZLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530528CF6D17114A83838CC0B3F86CE2 /* MZLRouter.swift */; };
-		CF79D0BC7EDFF69E5FD881795162C705 /* MZLRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8F90FBAA31793E668BCFA84385B5DB /* MZLRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CE68B3A7FA801828E8D39852BD8781 /* MZLRouter.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8F8173265D9D7531315A1F6F41492BA /* MZLRouter.xcassets */; };
+		D5B8BECBB0774D7134AF3010FD2E5DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DE7A2DA21D08E31BBED9A68AEB960E11 /* Pods-MZLRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62106CF0B683229D453256C8D7AC6098 /* Pods-MZLRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F18BED5C2F84C1D0D71747E06F5DFA90 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F667A1D2122410DB0F96B40A571F94 /* ReplaceMe.swift */; };
-		F56560738712BAF1E915B916385ECCDC /* MZLRouter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D2EE24AC0D8528215D7D25A8C8AC88A7 /* MZLRouter.bundle */; };
-		FED2404B7DD8CB0735F675DEBE082C6C /* MZLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FF9DE08CFEE78A81C04EFC877FE96D /* MZLCommon.swift */; };
+		DF23F8C9B650D766D23807C4D24565D6 /* RouterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA56F75DB76210F64095AF8EFF5BB3 /* RouterImage.swift */; };
+		E0130BB3121005163DC0394D4AEDB22A /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FC25B9C9E624945915F62C1FD2D938 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		79C4CAF851DCCF965803581C259D94A6 /* PBXContainerItemProxy */ = {
+		8B679FBCF56C4D82131827BE628CDE89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DF7228F12C5D20D437AEE97C530E69D1;
 			remoteInfo = "Pods-MZLRouter_Example";
 		};
-		90172F20A3F11E602CB0C5AAF0A58C09 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A054C62FB78058E21126050B0B310243;
-			remoteInfo = "MZLRouter-MZLRouter";
-		};
-		9434217184D35660B863DCFE944E9267 /* PBXContainerItemProxy */ = {
+		BF8AE8EBFD35BEACA0B4356DB43A7449 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DBAFC22EC3AFF7401A3C1F133C4D8E09;
 			remoteInfo = MZLRouter;
 		};
+		C99FD2CCD6D7BB41DF5E2CAA04E7F3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A054C62FB78058E21126050B0B310243;
+			remoteInfo = "MZLRouter-MZLRouter";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0561C6A3AFD2DE47252B3E94FC8B80A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1450D283275088C51FB1E76C570709D7 /* Pods-MZLRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E944D284ECA952F55B518EBEF844476 /* MZLRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZLRouter-umbrella.h"; sourceTree = "<group>"; };
 		211C3FA1897A8B4E1D40BF0C8C648945 /* Pods-MZLRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		24B25D368999C275FA464C3AE6307EA3 /* Pods-MZLRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZLRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		27E0FA9E468927DDE959F4A9EA19F91E /* Pods-MZLRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZLRouter_Example-dummy.m"; sourceTree = "<group>"; };
-		2A22AF353024C7B5DBBCF4B650B4F362 /* MZLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MZLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2F8F90FBAA31793E668BCFA84385B5DB /* MZLRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZLRouter-umbrella.h"; sourceTree = "<group>"; };
-		300D025BB98DFB71DB8AAA8605265A0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3D4E65488B878CB633BF0D880972F7F4 /* MZLRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZLRouter.modulemap; sourceTree = "<group>"; };
-		49F667A1D2122410DB0F96B40A571F94 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MZLRouter/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		530528CF6D17114A83838CC0B3F86CE2 /* MZLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZLRouter.swift; path = MZLRouter/Classes/MZLRouter.swift; sourceTree = "<group>"; };
+		29D86E0727226DF06E9F790D5CE1E01A /* ResourceBundle-MZLRouter-MZLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MZLRouter-MZLRouter-Info.plist"; sourceTree = "<group>"; };
+		37BA56F75DB76210F64095AF8EFF5BB3 /* RouterImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterImage.swift; path = MZLRouter/Classes/Helper/RouterImage.swift; sourceTree = "<group>"; };
+		39A5465D7F417C6A02424447513C7CE3 /* MZLRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MZLRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		53131A846A7C1A162E3225F72916B815 /* Pods-MZLRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZLRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E852EEAFE8081CFA77E57DFE5CDE939 /* MZLRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZLRouter.swift; path = MZLRouter/Classes/URLRouter/MZLRouter.swift; sourceTree = "<group>"; };
+		6078FFCC413B6711C4F47B06F11EB497 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		62106CF0B683229D453256C8D7AC6098 /* Pods-MZLRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZLRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		625D4D38058779BE1F40A7E007103788 /* Pods-MZLRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZLRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		68B2AEB5067896079BBC0E0330031AD5 /* MZLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZLRouter.release.xcconfig; sourceTree = "<group>"; };
 		6AE17D8137F5A60004D3A73E2289AE4A /* Pods-MZLRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZLRouter_Tests-Info.plist"; sourceTree = "<group>"; };
 		6F8B37F28E6FD7C39FBA328011CA6770 /* Pods-MZLRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZLRouter_Example-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		753CB3A7769D70F77FC9C262AE0F24DA /* ModuleRouteContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleRouteContext.swift; path = MZLRouter/Classes/URLRouter/ModuleRouteContext.swift; sourceTree = "<group>"; };
+		7A8C8C2AD57387763A7B540DB2B864B0 /* MZLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MZLRouter-Info.plist"; sourceTree = "<group>"; };
 		7D179BDD582229A860A355B2BA656F55 /* Pods-MZLRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8384AD2C0E486AB8568C8FA9DF980EC5 /* MZLRouter.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MZLRouter.xcassets; path = MZLRouter/Assets/MZLRouter.xcassets; sourceTree = "<group>"; };
 		8E8BD8E5E548F271EF0F3FBB8EBC3620 /* Pods-MZLRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZLRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		95FF9DE08CFEE78A81C04EFC877FE96D /* MZLCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZLCommon.swift; path = MZLRouter/Classes/MZLCommon.swift; sourceTree = "<group>"; };
-		982BAC773DE284B5D814585FB9239D73 /* MZLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZLRouter.debug.xcconfig; sourceTree = "<group>"; };
-		9BB95D6A6E24E07B054541F77CC99EE3 /* ModuleMeditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMeditor.swift; path = MZLRouter/Classes/ModuleMeditor.swift; sourceTree = "<group>"; };
+		8F217DC7EEF340FC9E03023383AA138A /* MZLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZLRouter-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EA5E17307C59063D6ECD8CAFE76F3D8 /* Pods-MZLRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZLRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9FA203AA206ABBB2235913A2FFA730F5 /* MZLRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZLRouter-prefix.pch"; sourceTree = "<group>"; };
 		A5C8ECA6A2C2B95C51C38D838606ABB8 /* Pods-MZLRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZLRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		A60AFCCD89009297E6DCD5F3FF8AA31F /* MZLRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZLRouter.debug.xcconfig; sourceTree = "<group>"; };
 		A9070FF8CC97FA3CD5C4ED5E76F41F89 /* Pods-MZLRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZLRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		A987C9D4929EA38578549C84EC14F776 /* MZLRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZLRouter.release.xcconfig; sourceTree = "<group>"; };
-		B4D8783D9227F1420D9055D82E036936 /* ResourceBundle-MZLRouter-MZLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MZLRouter-MZLRouter-Info.plist"; sourceTree = "<group>"; };
-		B77E9000EB0BD3D2730E2F3B086A470E /* ModuleRouteContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleRouteContext.swift; path = MZLRouter/Classes/ModuleRouteContext.swift; sourceTree = "<group>"; };
+		AB67531840D25F17E0492CB65A46C6C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BD0ED73ED6252C25F94BC1474379269D /* Pods_MZLRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZLRouter_Example.framework; path = "Pods-MZLRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FC25B9C9E624945915F62C1FD2D938 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = MZLRouter/Classes/TargetActionRouter/Test.swift; sourceTree = "<group>"; };
+		CA735B76A60CE8CFFD448D53044CD1B5 /* MZLRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZLRouter.modulemap; sourceTree = "<group>"; };
 		CBAF708A066E16119C51588CA5BD3EC1 /* Pods-MZLRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZLRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D2119AFBEF03A828C0F25A4D572E14C4 /* MZLRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MZLRouter.framework; path = MZLRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EE24AC0D8528215D7D25A8C8AC88A7 /* MZLRouter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MZLRouter.bundle; path = "MZLRouter-MZLRouter.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD26E6FA3C1FAEBE57B0B496BF00295 /* MZLRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MZLRouter-Info.plist"; sourceTree = "<group>"; };
+		D8F8173265D9D7531315A1F6F41492BA /* MZLRouter.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MZLRouter.xcassets; path = MZLRouter/Assets/MZLRouter.xcassets; sourceTree = "<group>"; };
+		E88F57084096F8A1319ED69B44CC1222 /* ModuleMeditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModuleMeditor.swift; path = MZLRouter/Classes/URLRouter/ModuleMeditor.swift; sourceTree = "<group>"; };
+		EB89F98BA86729EBD60F3EAAAEB9693C /* MZLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZLRouter-dummy.m"; sourceTree = "<group>"; };
+		F0A6D18795DC50760968B2BC4A1CE0D9 /* MZLCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MZLCommon.swift; path = MZLRouter/Classes/Helper/MZLCommon.swift; sourceTree = "<group>"; };
 		F5F14D81BE040801E8EA01E133A31B78 /* Pods-MZLRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZLRouter_Example.modulemap"; sourceTree = "<group>"; };
 		FBBDB9506439FD1205C85B19134DC844 /* Pods-MZLRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZLRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FF71DB8FFC6AFDAD632379F646668DC4 /* MZLRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZLRouter-dummy.m"; sourceTree = "<group>"; };
 		FFA11EC304E861216C21A66AF056EAA1 /* Pods_MZLRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZLRouter_Tests.framework; path = "Pods-MZLRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		740C7A5F29A1035AB625FCC8065BDF02 /* Frameworks */ = {
+		5C7389C6B61E03911B3AC20FA14AAD10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70EB9FB67C88950B5CD083B6C0A24722 /* Foundation.framework in Frameworks */,
+				D5B8BECBB0774D7134AF3010FD2E5DF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCFDFAAB42F66F352CA95B0B3B64E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,13 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B321D5266AB5112B2F0C7DEDAF13466D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D11A67817B613C0830694594714329A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,20 @@
 			path = "Target Support Files/Pods-MZLRouter_Example";
 			sourceTree = "<group>";
 		};
+		098F038A898AA34740C70500F9804FDA /* MZLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D8F8173265D9D7531315A1F6F41492BA /* MZLRouter.xcassets */,
+				D5D7F89AD9651DA151EC28F9C8E3B821 /* Helper */,
+				91D223F7A6707CCCB518ADE60E3E4AA7 /* Pod */,
+				9F80F30E4A9C02ABD6303B57FDE4255F /* Support Files */,
+				94DA8952DE545AC5CF39FF60210B3735 /* TargetActionRouter */,
+				CD1FBEA5CE3C83C1B1A64C7E33FE9AAF /* URLRouter */,
+			);
+			name = MZLRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		09A2F7E0712BB0A1DFB5AD63A1967750 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,16 +171,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B7860036ED56DDEAB51B0BDC55184E8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0561C6A3AFD2DE47252B3E94FC8B80A9 /* LICENSE */,
-				2A22AF353024C7B5DBBCF4B650B4F362 /* MZLRouter.podspec */,
-				300D025BB98DFB71DB8AAA8605265A0B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,44 +179,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5940CD1109E54AADBB6A9846F3F68D6D /* MZLRouter */ = {
+		91D223F7A6707CCCB518ADE60E3E4AA7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9BB95D6A6E24E07B054541F77CC99EE3 /* ModuleMeditor.swift */,
-				B77E9000EB0BD3D2730E2F3B086A470E /* ModuleRouteContext.swift */,
-				95FF9DE08CFEE78A81C04EFC877FE96D /* MZLCommon.swift */,
-				530528CF6D17114A83838CC0B3F86CE2 /* MZLRouter.swift */,
-				8384AD2C0E486AB8568C8FA9DF980EC5 /* MZLRouter.xcassets */,
-				49F667A1D2122410DB0F96B40A571F94 /* ReplaceMe.swift */,
-				0B7860036ED56DDEAB51B0BDC55184E8 /* Pod */,
-				8039E9F017B60000E69F7226B1D8313D /* Support Files */,
+				AB67531840D25F17E0492CB65A46C6C4 /* LICENSE */,
+				39A5465D7F417C6A02424447513C7CE3 /* MZLRouter.podspec */,
+				6078FFCC413B6711C4F47B06F11EB497 /* README.md */,
 			);
-			name = MZLRouter;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		794F9B6F7D6FC0521B8DA11495F08B22 /* Development Pods */ = {
+		93616076F40C38485041000254283BA1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5940CD1109E54AADBB6A9846F3F68D6D /* MZLRouter */,
+				098F038A898AA34740C70500F9804FDA /* MZLRouter */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8039E9F017B60000E69F7226B1D8313D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D4E65488B878CB633BF0D880972F7F4 /* MZLRouter.modulemap */,
-				FF71DB8FFC6AFDAD632379F646668DC4 /* MZLRouter-dummy.m */,
-				DFD26E6FA3C1FAEBE57B0B496BF00295 /* MZLRouter-Info.plist */,
-				9FA203AA206ABBB2235913A2FFA730F5 /* MZLRouter-prefix.pch */,
-				2F8F90FBAA31793E668BCFA84385B5DB /* MZLRouter-umbrella.h */,
-				982BAC773DE284B5D814585FB9239D73 /* MZLRouter.debug.xcconfig */,
-				A987C9D4929EA38578549C84EC14F776 /* MZLRouter.release.xcconfig */,
-				B4D8783D9227F1420D9055D82E036936 /* ResourceBundle-MZLRouter-MZLRouter-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MZLRouter";
 			sourceTree = "<group>";
 		};
 		93856D8EC15C605E00353F3070B1F964 /* Targets Support Files */ = {
@@ -220,6 +204,30 @@
 				C366AB2DB32B0855B259CF89ADBECA85 /* Pods-MZLRouter_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94DA8952DE545AC5CF39FF60210B3735 /* TargetActionRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C3FC25B9C9E624945915F62C1FD2D938 /* Test.swift */,
+			);
+			name = TargetActionRouter;
+			sourceTree = "<group>";
+		};
+		9F80F30E4A9C02ABD6303B57FDE4255F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA735B76A60CE8CFFD448D53044CD1B5 /* MZLRouter.modulemap */,
+				EB89F98BA86729EBD60F3EAAAEB9693C /* MZLRouter-dummy.m */,
+				7A8C8C2AD57387763A7B540DB2B864B0 /* MZLRouter-Info.plist */,
+				8F217DC7EEF340FC9E03023383AA138A /* MZLRouter-prefix.pch */,
+				1E944D284ECA952F55B518EBEF844476 /* MZLRouter-umbrella.h */,
+				A60AFCCD89009297E6DCD5F3FF8AA31F /* MZLRouter.debug.xcconfig */,
+				68B2AEB5067896079BBC0E0330031AD5 /* MZLRouter.release.xcconfig */,
+				29D86E0727226DF06E9F790D5CE1E01A /* ResourceBundle-MZLRouter-MZLRouter-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MZLRouter";
 			sourceTree = "<group>";
 		};
 		C366AB2DB32B0855B259CF89ADBECA85 /* Pods-MZLRouter_Tests */ = {
@@ -238,11 +246,21 @@
 			path = "Target Support Files/Pods-MZLRouter_Tests";
 			sourceTree = "<group>";
 		};
+		CD1FBEA5CE3C83C1B1A64C7E33FE9AAF /* URLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				E88F57084096F8A1319ED69B44CC1222 /* ModuleMeditor.swift */,
+				753CB3A7769D70F77FC9C262AE0F24DA /* ModuleRouteContext.swift */,
+				5E852EEAFE8081CFA77E57DFE5CDE939 /* MZLRouter.swift */,
+			);
+			name = URLRouter;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				794F9B6F7D6FC0521B8DA11495F08B22 /* Development Pods */,
+				93616076F40C38485041000254283BA1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				09A2F7E0712BB0A1DFB5AD63A1967750 /* Products */,
 				93856D8EC15C605E00353F3070B1F964 /* Targets Support Files */,
@@ -257,6 +275,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5D7F89AD9651DA151EC28F9C8E3B821 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F0A6D18795DC50760968B2BC4A1CE0D9 /* MZLCommon.swift */,
+				37BA56F75DB76210F64095AF8EFF5BB3 /* RouterImage.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -268,14 +295,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6757B6606A6E876C8A18B2B3DD93ED90 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF79D0BC7EDFF69E5FD881795162C705 /* MZLRouter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B6358B5018E2B62C894F8D3F043BFB8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,16 +303,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E886A23CE8062183D3CCB1182604F4DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2A0F1606B88E5D49AEDF235E04FA84 /* MZLRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A054C62FB78058E21126050B0B310243 /* MZLRouter-MZLRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 553629A5B54D93EE3E8DB96653553AB3 /* Build configuration list for PBXNativeTarget "MZLRouter-MZLRouter" */;
+			buildConfigurationList = 2D83A70FA32F8F1350DB5EB1633F2967 /* Build configuration list for PBXNativeTarget "MZLRouter-MZLRouter" */;
 			buildPhases = (
-				3371C729F377F3C99C880970486581F4 /* Sources */,
-				D11A67817B613C0830694594714329A1 /* Frameworks */,
-				78E81EFD4D692A6EA96F6BC9993EA059 /* Resources */,
+				3220D47935E4991FB96FBDDD7EB20249 /* Sources */,
+				5CCFDFAAB42F66F352CA95B0B3B64E89 /* Frameworks */,
+				2E69E70950B13033565F9F16474F5DCC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -316,7 +343,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B91DE5CED38623A63659384AA55FBD9 /* PBXTargetDependency */,
+				9C49B1A0027DA206264234E141E24F88 /* PBXTargetDependency */,
 			);
 			name = "Pods-MZLRouter_Tests";
 			productName = "Pods-MZLRouter_Tests";
@@ -325,17 +352,17 @@
 		};
 		DBAFC22EC3AFF7401A3C1F133C4D8E09 /* MZLRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82BF35E28E4239B64AFC334858075415 /* Build configuration list for PBXNativeTarget "MZLRouter" */;
+			buildConfigurationList = 5F92414688304D1BDD30D0BD65AE065A /* Build configuration list for PBXNativeTarget "MZLRouter" */;
 			buildPhases = (
-				6757B6606A6E876C8A18B2B3DD93ED90 /* Headers */,
-				5DCE50B3A83B4546213B33BECE66AE3E /* Sources */,
-				740C7A5F29A1035AB625FCC8065BDF02 /* Frameworks */,
-				F21C8AA9FA3B73845CC8183397417C55 /* Resources */,
+				E886A23CE8062183D3CCB1182604F4DA /* Headers */,
+				89790138C652DBC98D74F449946A4DC4 /* Sources */,
+				5C7389C6B61E03911B3AC20FA14AAD10 /* Frameworks */,
+				C7B26227111DCAA81D1DC4F96627C54B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				03FFC4C68531192C36B0BE80DA797759 /* PBXTargetDependency */,
+				D2698C7AADDE77E8E50A5E14C59EA3C5 /* PBXTargetDependency */,
 			);
 			name = MZLRouter;
 			productName = MZLRouter;
@@ -354,7 +381,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AE9E07BF681E20C889C6F3687D29A99A /* PBXTargetDependency */,
+				A71A94A83856F8C64550F33C4B278266 /* PBXTargetDependency */,
 			);
 			name = "Pods-MZLRouter_Example";
 			productName = "Pods-MZLRouter_Example";
@@ -399,11 +426,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78E81EFD4D692A6EA96F6BC9993EA059 /* Resources */ = {
+		2E69E70950B13033565F9F16474F5DCC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA18CD44123B290337C615E92FB11B3 /* MZLRouter.xcassets in Resources */,
+				B8CE68B3A7FA801828E8D39852BD8781 /* MZLRouter.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B26227111DCAA81D1DC4F96627C54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F94EBB7340AE212585891F9525987F /* MZLRouter.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,14 +446,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F21C8AA9FA3B73845CC8183397417C55 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F56560738712BAF1E915B916385ECCDC /* MZLRouter.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +460,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3371C729F377F3C99C880970486581F4 /* Sources */ = {
+		3220D47935E4991FB96FBDDD7EB20249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DCE50B3A83B4546213B33BECE66AE3E /* Sources */ = {
+		89790138C652DBC98D74F449946A4DC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69CD6568E78344C27160EFDE80C682CF /* ModuleMeditor.swift in Sources */,
-				53419C5D0C1868FE6C3ADBE426DDD73A /* ModuleRouteContext.swift in Sources */,
-				FED2404B7DD8CB0735F675DEBE082C6C /* MZLCommon.swift in Sources */,
-				57A638EDA0F7E6D69F4FD1CD8AAE22DE /* MZLRouter-dummy.m in Sources */,
-				C65B5E4E2A7C6F4CA98133CBD7BF00C1 /* MZLRouter.swift in Sources */,
-				F18BED5C2F84C1D0D71747E06F5DFA90 /* ReplaceMe.swift in Sources */,
+				0F55210A81DA7A47933389B367CE8695 /* ModuleMeditor.swift in Sources */,
+				7F0695AB247C9642208143A336B32B2F /* ModuleRouteContext.swift in Sources */,
+				66006183F8CE9568B904B270C33AC7D9 /* MZLCommon.swift in Sources */,
+				8D441E0C75BD50051039AC3EF1DBD412 /* MZLRouter-dummy.m in Sources */,
+				9824B927EE1311D17B64D7167E957AA6 /* MZLRouter.swift in Sources */,
+				DF23F8C9B650D766D23807C4D24565D6 /* RouterImage.swift in Sources */,
+				E0130BB3121005163DC0394D4AEDB22A /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,23 +492,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03FFC4C68531192C36B0BE80DA797759 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MZLRouter-MZLRouter";
-			target = A054C62FB78058E21126050B0B310243 /* MZLRouter-MZLRouter */;
-			targetProxy = 90172F20A3F11E602CB0C5AAF0A58C09 /* PBXContainerItemProxy */;
-		};
-		8B91DE5CED38623A63659384AA55FBD9 /* PBXTargetDependency */ = {
+		9C49B1A0027DA206264234E141E24F88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MZLRouter_Example";
 			target = DF7228F12C5D20D437AEE97C530E69D1 /* Pods-MZLRouter_Example */;
-			targetProxy = 79C4CAF851DCCF965803581C259D94A6 /* PBXContainerItemProxy */;
+			targetProxy = 8B679FBCF56C4D82131827BE628CDE89 /* PBXContainerItemProxy */;
 		};
-		AE9E07BF681E20C889C6F3687D29A99A /* PBXTargetDependency */ = {
+		A71A94A83856F8C64550F33C4B278266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZLRouter;
 			target = DBAFC22EC3AFF7401A3C1F133C4D8E09 /* MZLRouter */;
-			targetProxy = 9434217184D35660B863DCFE944E9267 /* PBXContainerItemProxy */;
+			targetProxy = BF8AE8EBFD35BEACA0B4356DB43A7449 /* PBXContainerItemProxy */;
+		};
+		D2698C7AADDE77E8E50A5E14C59EA3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MZLRouter-MZLRouter";
+			target = A054C62FB78058E21126050B0B310243 /* MZLRouter-MZLRouter */;
+			targetProxy = C99FD2CCD6D7BB41DF5E2CAA04E7F3FC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -583,9 +611,9 @@
 			};
 			name = Debug;
 		};
-		5546B0C085B15C0CBBF2DECF6AA877ED /* Debug */ = {
+		56A3099B85381D0C8D08C72C28D47B10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 982BAC773DE284B5D814585FB9239D73 /* MZLRouter.debug.xcconfig */;
+			baseConfigurationReference = A60AFCCD89009297E6DCD5F3FF8AA31F /* MZLRouter.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -613,9 +641,9 @@
 			};
 			name = Debug;
 		};
-		6335CB8F6562AFE54FBD1A4F509E3EFE /* Release */ = {
+		71042B35415D86F164A43BB77B469443 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A987C9D4929EA38578549C84EC14F776 /* MZLRouter.release.xcconfig */;
+			baseConfigurationReference = 68B2AEB5067896079BBC0E0330031AD5 /* MZLRouter.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -644,9 +672,9 @@
 			};
 			name = Release;
 		};
-		7471355512B2262619B3C57B7C07D995 /* Release */ = {
+		7C2C6C9AF70BDB44882E72DD510D7703 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A987C9D4929EA38578549C84EC14F776 /* MZLRouter.release.xcconfig */;
+			baseConfigurationReference = A60AFCCD89009297E6DCD5F3FF8AA31F /* MZLRouter.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MZLRouter";
 				IBSC_MODULE = MZLRouter;
@@ -658,7 +686,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		7E3F206336A6FF7690007A5B6868022E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -724,22 +752,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B74740470418D5B68DE8EBD4C1B7F0BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 982BAC773DE284B5D814585FB9239D73 /* MZLRouter.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MZLRouter";
-				IBSC_MODULE = MZLRouter;
-				INFOPLIST_FILE = "Target Support Files/MZLRouter/ResourceBundle-MZLRouter-MZLRouter-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = MZLRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -836,23 +848,39 @@
 			};
 			name = Release;
 		};
+		FA68508B089757C302A43B92D70B0782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B2AEB5067896079BBC0E0330031AD5 /* MZLRouter.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MZLRouter";
+				IBSC_MODULE = MZLRouter;
+				INFOPLIST_FILE = "Target Support Files/MZLRouter/ResourceBundle-MZLRouter-MZLRouter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = MZLRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D83A70FA32F8F1350DB5EB1633F2967 /* Build configuration list for PBXNativeTarget "MZLRouter-MZLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2C6C9AF70BDB44882E72DD510D7703 /* Debug */,
+				FA68508B089757C302A43B92D70B0782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		553629A5B54D93EE3E8DB96653553AB3 /* Build configuration list for PBXNativeTarget "MZLRouter-MZLRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B74740470418D5B68DE8EBD4C1B7F0BD /* Debug */,
-				7471355512B2262619B3C57B7C07D995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -866,20 +894,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5F92414688304D1BDD30D0BD65AE065A /* Build configuration list for PBXNativeTarget "MZLRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56A3099B85381D0C8D08C72C28D47B10 /* Debug */,
+				71042B35415D86F164A43BB77B469443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6EE6D5824D14BEDB005CFC8D88DFD73F /* Build configuration list for PBXNativeTarget "Pods-MZLRouter_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E3F206336A6FF7690007A5B6868022E /* Debug */,
 				D5379590D56A54283BAF585B607F0030 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82BF35E28E4239B64AFC334858075415 /* Build configuration list for PBXNativeTarget "MZLRouter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5546B0C085B15C0CBBF2DECF6AA877ED /* Debug */,
-				6335CB8F6562AFE54FBD1A4F509E3EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
