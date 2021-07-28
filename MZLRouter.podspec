@@ -46,6 +46,9 @@ TODO: Add long description of the pod here.
    s.subspec 'TargetActionRouter' do |router|
      router.ios.deployment_target = '9.0'
      router.source_files = 'MZLRouter/Classes/TargetActionRouter/**/*'
+     router.resource_bundles = {
+       'MZLRouter' => ['MZLRouter/Assets/*']
+     }
    end
 
    s.subspec 'Helper' do |helper|
